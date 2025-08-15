@@ -11,6 +11,7 @@ Repository for the capstone projects on the Bootcamp
 8. Dice Game (HTML, CSS & JS)
 9. Drum Kit (HTML, CSS & JS)
 10. Simon Game (jQuery)
+<!-- to make again
 11. QR code generator (Node.js)
 12. Secrets Project (Node.js & Express)
 13. Taco Town (APIs)
@@ -20,6 +21,7 @@ Repository for the capstone projects on the Bootcamp
 17. World Quiz (PostgreSQL)
 18. Flags Quiz (PostgreSQL)
 19. Travel Tracker (PostgreSQL)
+-->
 
 ## Languages Learned:
 - HTML
