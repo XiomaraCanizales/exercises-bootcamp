@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.big-box {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    border: 1px solid black;
+
+    height: 300px;
+}
+
+.blue {
+    background-color: blue;
+    position: static;
+}
+
+.red{
+    background-color: red;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.yellow{
+    background-color: yellow;
+    position: absolute;
+    right: 100px;
+}
+
+.green{
+    background-color: green;
+    position: fixed
+}
+
+.pink {
+    background-color: pink;
+    float: left;
+}
+
+.purple {
+    background-color: purple;
+    float: left;
+}
+
+.orange {
+    background-color: orange;
+    clear: both;
+}
+
+.gray {
+    background-color: gray;
+    margin-left: 500px;
+    margin-top: 50px;
+    box-shadow: 7px 6px 5px black;
+    border-radius: 15px 20px 30px 40px;
+    transform: rotate(60deg);
+}

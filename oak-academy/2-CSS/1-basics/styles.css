@@ -1,0 +1,22 @@
+body {
+    background: url(https://img.freepik.com/free-vector/flat-polygonal-background_23-2148915460.jpg?w=2000&t=st=1698024700~exp=1698025300~hmac=816e1bc219ea320908fee7c33812bcf9588ef8dfdbaab002e4bc4f137529faef);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: rgb(246, 83, 166);
+    border: 5px dotted rgb(251, 199, 42);
+    font-family: "Arial";
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: Tahoma;
+    font-size: 1.7em;
+}
+
+span {
+    font-weight: bold;
+}

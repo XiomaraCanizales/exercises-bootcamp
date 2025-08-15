@@ -1,0 +1,25 @@
+body {
+    border: 15px solid #E9D66B;
+    font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    color: #93C572;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img { 
+    width: 350px;
+    float: left; 
+    margin: 10px;
+}
+
+a {
+    color: #7B3F00;
+}
+
+.out {
+    margin: 20px;
+}

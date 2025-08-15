@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Page</title>
+
+    <!-- CDN files -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      
+      <a class="navbar-brand" href="#">Example Page</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#features" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product" class="nav-link">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link">Contact</a>
+          </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- header section -->
+    <header id="header">
+      <div class="overlay">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h1 class="display-3" style="margin-top: 50px;">Bootstrap Responsive Web Page</h1>
+              <p class="text-muted">Jelly marshmallow gingerbread chocolate caramels gummies sweet roll. Muffin sweet roll shortbread caramels brownie apple pie. 
+                Dragée donut lemon drops caramels bear claw croissant bear claw. Pastry sugar plum lollipop brownie toffee pie donut.</p>
+            <button type="button" name="button" class="btn btn-outline-secondary px-3">Action</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- features section -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="row my-4">
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-hippo fa-3x"></i>
+            <h3 class="mt-3">Easy Learning</h3>
+            <p>Oat cake biscuit candy candy canes marshmallow candy jelly. Cheesecake candy canes candy tootsie roll muffin. Pie oat cake bonbon cupcake cake.</p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-dragon fa-3x"></i>
+            <h3 class="mt-3">Innovative Techonolgy</h3>
+            <p>Caramels candy canes pastry icing jelly beans. Caramels shortbread macaroon jelly beans gummi bears marshmallow cookie. Jelly chocolate jujubes bear claw cake.</p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-frog fa-3x"></i>
+            <h3 class="mt-3">Free Support</h3>
+            <p>Candy canes pudding bear claw pudding chupa chups cake macaroon pastry brownie. Tart bear claw sweet toffee sugar plum lollipop pie marshmallow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our work section -->
+    <section id="work" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3>Our work</h3>
+            <p>Marzipan pudding cake gingerbread toffee chocolate bar liquorice cotton candy. Pie bear claw bonbon apple pie donut jelly beans dessert. 
+              Gingerbread bear claw sesame snaps sweet roll cotton candy topping. Chocolate cake powder tart sweet roll tiramisu pudding danish cotton candy.</p>
+          </div>
+        <div class="col-md-6 text-center mx-auto">
+          <button type="button" class="btn btn-secondary" name="button" data-bs-toggle="modal" data-bs-target="#firstModal">Open</button>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- modal -->
+    <div id="firstModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Modal Title</h3>
+            <button type="button" class="btn-close" name="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        <div class="modal-body">
+          <p>Modal Body Content</p>
+          <p>A video supposed to be loading but doesn't work 😪</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- product section -->
+    <section id="product" class="my-5 mx-5">
+      <div class="row">
+      <!-- card 1 -->
+        <div class="col-md-4">
+          <div class="card text-center pt-3">
+            <div class="card-img">
+              <img src="assets/img1.jpg" alt="" class="img-fluid rounded" style="width: 200px; height: 150px;">
+            </div>
+                        
+            <div class="card-body">
+              <h3>Web Design</h3>
+              <p>Jelly jelly beans apple pie marshmallow tart macaroon. Oat cake soufflé cheesecake donut oat cake cake lollipop tiramisu sweet roll.</p>
+              <button type="button" name="button" class="btn btn-outline-secondary px-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      <!-- card 2 -->
+        <div class="col-md-4">
+          <div class="card text-center pt-3">
+            <div class="card-img">
+              <img src="assets/img2.jpg" alt="" class="img-fluid rounded" style="width: 200px; height: 150px;">
+            </div>
+                        
+            <div class="card-body">
+              <h3>Web Design</h3>
+              <p>Biscuit tootsie roll gingerbread croissant bonbon macaroon. Fruitcake cake tart pastry lemon drops sweet roll chocolate bar.</p>
+              <button type="button" name="button" class="btn btn-outline-secondary px-3">Read More</button>
+            </div>
+          </div>
+        </div>
+      <!-- card 3 -->
+      <div class="col-md-4">
+        <div class="card text-center pt-3">
+          <div class="card-img">
+            <img src="assets/img3.jpg" alt="" class="img-fluid rounded" style="width: 200px; height: 150px;">
+          </div>
+                      
+          <div class="card-body">
+            <h3>Web Design</h3>
+            <p>Bear claw cake halvah muffin fruitcake icing. Jujubes fruitcake gingerbread jelly-o gummi bears cotton candy cake chocolate bar.</p>
+            <button type="button" name="button" class="btn btn-outline-secondary px-3">Read More</button>
+          </div>
+        </div>
+     </div>
+     </div>
+    </section>
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-5 text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- testimonial 1 -->
+                <div class="carousel-item active">
+                  <img src="assets/testimonial-1.jpg" alt="" class="rounded-circle shadow-1-strong mb-4" style="width: 200px; height: 200px;">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                      <h5 class="mb-3">Scarlet Cohen</h5>
+                      <p>Photographer</p>
+                      <p class="text-muted">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Pudding apple pie liquorice cake cake muffin bonbon pudding. Gummi bears ice cream caramels chocolate bar icing chupa chups candy canes cotton candy marzipan. Dragée donut cookie biscuit fruitcake gummi bears.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-waring mb-0">
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-regular fa-star rating"></i></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- testimonial 2 -->
+                <div class="carousel-item">
+                  <img src="assets/testimonial-2.jpg" alt="" class="rounded-circle shadow-1-strong mb-4" style="width: 200px; height: 200px;">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                      <h5 class="mb-3">Bradley Russell</h5>
+                      <p>Web Designer</p>
+                      <p class="text-muted">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Soufflé marshmallow bonbon jujubes pastry lollipop. Icing cupcake dessert icing danish biscuit. Biscuit toffee bear claw tiramisu caramels bear claw powder.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-waring mb-0">
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-regular fa-star rating"></i></li>
+                      <li><i class="fa-regular fa-star rating"></i></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- testimonial 3 -->
+                <div class="carousel-item">
+                  <img src="assets/testimonial-3.jpg" alt="" class="rounded-circle shadow-1-strong mb-4" style="width: 200px; height: 200px;">
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-lg-8">
+                      <h5 class="mb-3">Mollie Carr</h5>
+                      <p>UX Designer</p>
+                      <p class="text-muted">
+                        <i class="fas fa-quote-left pe-2"></i>
+                        Chocolate bar cotton candy cheesecake jelly-o sesame snaps dragée muffin. Croissant wafer fruitcake apple pie cake chocolate jujubes caramels. Fruitcake sweet chocolate topping candy candy canes danish chocolate. Bear claw bear claw dragée pudding tart.
+                        <i class="fas fa-quote-right pe-2"></i>
+                      </p>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-center text-waring mb-0">
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                      <li><i class="fa-solid fa-star rating"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              <!-- control btns -->
+              <button class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev" style="color: #606060;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span> 
+                <i class="fa-solid fa-angle-left" style="color: #606060;"></i>
+              </button>
+              <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                <i class="fa-solid fa-angle-right" style="color: #606060;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- left side -->
+          <div class="col-md-6">
+            <div class="first content">
+              <h2>Follow Us</h2>
+              <p>Powder cake gingerbread jelly beans gingerbread caramels. Cake carrot cake dragée candy canes bear claw gummi bears croissant sweet. 
+                Carrot cake caramels croissant bonbon cake candy bear claw chocolate bar. Jelly beans marzipan lemon drops pudding gummi bears croissant.</p>
+            </div>
+            <div class="social d-flex flex-row">
+              <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+          <!-- right side -->
+          <div class="col-md-6">
+            <div class="second content">
+              <h2>Contact Us</h2>
+              <form action="index.html" method="post">
+                <div class="mb-3">
+                  <label for="inputEmail" class="form-label">Email</label>
+                  <input type="email" name="email" id="inputEmail" class="form-control" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="inputTextarea" class="form-label">Message</label>
+                  <textarea name="message" id="inputTextarea" class="form-control" rows="3"></textarea>
+                </div>
+                <button type="submit" name="button" class="btn btn-secondary px-3">submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* general styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar {
+    border-bottom: #6369fe solid 5px;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: #f6c205;
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    background-color: #84aeff;
+}
+
+/* header */
+#header {
+    background: url('./assets/bg-image.jpg') no-repeat;
+    background-size: 40%;
+    background-position: center;
+    height: 80vh;
+
+}
+
+.btn-outline-secondary {
+    cursor: pointer;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #3e3d89;
+}
+
+/* features section */
+#features {
+    background-color: rgba(26, 0, 26, 0.1);
+}
+#features i {
+    color: #38d8c6;
+    cursor: pointer;
+}
+
+#features h3:hover {
+    color: #38d8c6;
+}
+
+/* work section */
+
+/* products section */
+
+/* testimonials section */
+.rating {
+    color: #fec700;
+}
+
+/* footer */
+#footer {
+    background-color: #222324;
+    width: 100%;
+    color: white;
+}
+
+#footer .container {
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    margin: 20px 0;
+}
+
+.social a {
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.second {
+    margin-left: 100px;
+}
+
+
+@media (max-width: 1200px) {
+    header {
+        background-size: 1200px 100vh;
+    }
+}
+@media (max-width: 992px) {
+    header {
+        background-size: 990px 100vh;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        background-size: 700px 100vh;
+    }
+}
+@media (max-width: 576px) {
+    header {
+        background-size: 570px 100vh;
+    }
+}
