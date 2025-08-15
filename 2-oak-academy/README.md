@@ -1,7 +1,7 @@
-# FullStack-WebDevelopment-OakAcademy
+# FullStack WebDevelopment by OakAcademy
 Repository for all projects on this Bootcamp
 
-## Content:
+## Languages Learned:
 - HTML
 - CSS
 - Bootstrap
