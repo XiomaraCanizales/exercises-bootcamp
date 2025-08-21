@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter Counter</title>
+</head>
+<body>
+    <h1>Letter Counter</h1>
+
+    <% if (locals.numberLetters) { %>
+        <p>Total number of letters: <%= locals.numberLetters %></p>
+        <a href='/'>Try again</a>
+    <% } else { %>
+        <h2>Please enter your name:</h2>
+        <form action="/submit" method="post">
+            <input type="text" name="fName" placeholder="First Name" required>
+            <input type="text" name="lName" placeholder="Last Name" required>
+            <button type="submit">Submit</button>
+        </form>
+    <% } %>
+</body>
+</html>

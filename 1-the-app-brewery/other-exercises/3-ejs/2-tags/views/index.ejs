@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS Tags</title>
+</head>
+<body>
+    <!-- title goes here -->
+    <h1><%= data.title %></h1>
+    <!-- current second -->
+    <p>
+        Current second:
+        <%= data.seconds %>
+    </p>
+    <!-- if current second is even, display a list -->
+    <% if (data.seconds % 2 === 0) { %>
+        <ul>
+            <% data.items.forEach(function(item) { %>
+                <li><%= item %></li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No items to display</p>
+    <% } %>
+    <p>
+        <!-- HTML content goes here: -->
+         <%= data.content %>
+    </p>
+
+    <!-- footer goes here -->
+    <%- include('footer.ejs') %>
+</body>
+</html>
