@@ -1,50 +1,34 @@
 # Full-Stack Web Developer Bootcamp by the App Brewery
-Repository for the capstone projects on the Bootcamp
+Repository of the exercises & challenges on the Bootcamp
 
 ## Projects Made:
-#### Portfolio Website 
-🪛 HTML
+1. Portfolio Website (🪛 HTML)
 
-#### Motivation Poster 
-🪛 HTML & CSS
+2. Motivation Poster (🪛 HTML & CSS)
 
-#### Web Desing Agency Project 
-🪛 HTML & CSS
+3.  Web Desing Agency Project (🪛 HTML & CSS)
 
-#### Pricing Table 
-🪛  HTML & CSS
+4.  Pricing Table (🪛  HTML & CSS)
 
-#### Mondrian Project 
-🪛 HTML & CSS
+5. Mondrian Project (🪛 HTML & CSS)
 
-#### TingDog 
-🪛 Bootstrap
+6. TingDog (🪛 Bootstrap)
 
-#### Dice Game 
-🪛 HTML, CSS & JS
+7. Dice Game (🪛 HTML, CSS & JS)
 
-#### Drum Kit 
-🪛 HTML, CSS & JS
+8. Drum Kit (🪛 HTML, CSS & JS)
 
-#### Simon Game 
-🪛 jQuery
+9. Simon Game (🪛 jQuery)
 
-#### QR code generator 
-🪛 Node.js
+10. QR code generator (🪛 Node.js)
 
-> NPM packages
-> - inquirer
-> - qr-image
+    *NPM packages: inquirer & qr-image*
 
-#### Secrets acces
-🪛 Node.js & Expres.js
+11. Secrets access (🪛 Node.js & Expres.js)
 
-> NPM packages:
-> - *express*
-> - *body-parser*
+    *NPM packages: express & body-parser*
 
-#### Band generator
-🪛 Node.js, Expres.js & EJS
+12. Band generator (🪛 Node.js, Expres.js & EJS)
 
 <!-- to make again
 12. Secrets Project (Node.js & Express)
