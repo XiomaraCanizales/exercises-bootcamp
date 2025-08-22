@@ -9,9 +9,10 @@ Learning by following instructions from bootcamps
 - JavaScript
 - jQuery
 - Node.js
-<!-- 
 - Express.js
 - EJS
+
+<!-- 
 - Git & GitHub
 - API's
 - Databases

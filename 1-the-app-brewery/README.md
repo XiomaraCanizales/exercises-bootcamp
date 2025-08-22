@@ -2,19 +2,49 @@
 Repository for the capstone projects on the Bootcamp
 
 ## Projects Made:
-1. Portfolio Website (HTML)
-2. Motivation Poster (HTML & CSS)
-3. Web Desing Agency Project (HTML & CSS)
-4. Pricing Table (HTML & CSS)
-6. Mondrian Project (HTML & CSS)
-7. TingDog (Bootstrap)
-8. Dice Game (HTML, CSS & JS)
-9. Drum Kit (HTML, CSS & JS)
-10. Simon Game (jQuery)
-11. QR code generator (Node.js)
-    NPM packages used por this project:
-    - inquirer
-    - qr-image
+#### Portfolio Website 
+🪛 HTML
+
+#### Motivation Poster 
+🪛 HTML & CSS
+
+#### Web Desing Agency Project 
+🪛 HTML & CSS
+
+#### Pricing Table 
+🪛  HTML & CSS
+
+#### Mondrian Project 
+🪛 HTML & CSS
+
+#### TingDog 
+🪛 Bootstrap
+
+#### Dice Game 
+🪛 HTML, CSS & JS
+
+#### Drum Kit 
+🪛 HTML, CSS & JS
+
+#### Simon Game 
+🪛 jQuery
+
+#### QR code generator 
+🪛 Node.js
+
+> NPM packages
+> - inquirer
+> - qr-image
+
+#### Secrets acces
+🪛 Node.js & Expres.js
+
+> NPM packages:
+> - *express*
+> - *body-parser*
+
+#### Band generator
+🪛 Node.js, Expres.js & EJS
 
 <!-- to make again
 12. Secrets Project (Node.js & Express)
