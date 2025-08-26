@@ -11,10 +11,10 @@ Learning by following instructions from bootcamps
 - Node.js
 - Express.js
 - EJS
-
-<!-- 
 - Git & GitHub
 - API's
+
+<!-- 
 - Databases
 - SQL
 - PostgreSQL
