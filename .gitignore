@@ -13,3 +13,5 @@ node_modules
 2-oak-academy/.DS_Store
 2-oak-academy/1-HTML/.DS_Store
 2-oak-academy/2-CSS/.DS_Store
+
+.env

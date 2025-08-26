@@ -4,10 +4,11 @@ import bodyParser from "body-parser"
 
 // api url & token
 const API_URL = "https://secrets-api.appbrewery.com"
-const bearerToken = "cf227f5b-97ab-4413-a95a-6115e61d0340"
+
 const config = {
-  headers: { Authorization: `Bearer ${bearerToken}` },
+  headers: { Authorization: `Bearer: ${process.env.bearerToken}` },
 }
+
 
 // app setup
 const app = express()
