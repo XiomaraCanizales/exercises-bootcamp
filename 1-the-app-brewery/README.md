@@ -30,9 +30,10 @@ Repository of the exercises & challenges on the Bootcamp
 
 14. Bored Activity (🪛 APIs, JSON & AXIOS)
 
+15. Secrets Project (🪛 APIs, JSON & AXIOS)
+
 <!-- to make again
-12. Secrets Project (Node.js & Express)
-15. Secrets Project (APIs)
+
 16. Blog API Project (APIs)
 17. World Quiz (PostgreSQL)
 18. Flags Quiz (PostgreSQL)
