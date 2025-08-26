@@ -22,18 +22,16 @@ Repository of the exercises & challenges on the Bootcamp
 
 10. QR code generator (🪛 Node.js)
 
-    *NPM packages: inquirer & qr-image*
-
 11. Secrets access (🪛 Node.js & Expres.js)
-
-    *NPM packages: express & body-parser*
 
 12. Band generator (🪛 Node.js, Expres.js & EJS)
 
+13. Taco Town (🪛 API & JSON)
+
+14. Bored Activity (🪛 APIs, JSON & AXIOS)
+
 <!-- to make again
 12. Secrets Project (Node.js & Express)
-13. Taco Town (APIs)
-14. Bored Activity (APIs)
 15. Secrets Project (APIs)
 16. Blog API Project (APIs)
 17. World Quiz (PostgreSQL)
