@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rest api</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="response-area">
+            <p>
+                <%= secret.secret || "Waiting for data..." %>
+            </p>
+        </div>
+
+        <form id="myForm" method="post">
+            <label for="idInput">Id:</label>
+            <input type="text" name="id" id="idInput">
+
+            <label for="secretInput">Secret:</label>
+            <input type="text" name="secret" id="secretInput">
+
+            <label for="scoreInput">Score:</label>
+            <input type="number" name="score" id="scoreInput">
+
+            <label for="submit">Route:</label>
+            <!-- get secret by id -->
+            <input type="submit" value="GET" id="get" formaction="/get-secret">
+            <!-- add new secret -->
+            <input type="submit" value="POST" id="post" formaction="/post-secret">
+            <!-- this doesn't work because we need to work with database -->
+            <!-- change secret by id -->
+            <!-- formaction="/put-secret" -->
+            <input type="submit" value="PUT" id="put" >
+            <!-- update secret -->
+            <!-- formaction="/patch-secret" -->
+            <input type="submit" value="PATCH" id="patch">
+            <!-- delete secret -->
+            <!-- formaction="/delete-secret" -->
+            <input type="submit" value="DELETE" id="delete">
+
+        </form>
+    </div>
+</body>
+</html>
