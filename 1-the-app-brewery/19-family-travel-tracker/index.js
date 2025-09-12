@@ -93,17 +93,7 @@ app.post("/add", async (req, res) => {
         // if country is not found
         if (!result) {
             console.log("Country not found", country)
-            /* const countries = await checkVisited()
-            const users = await fetchUsers()
-            const color = await fetchUserColor()
-            return res.status(404).render("index.ejs", {
-                countries: countries,
-                total: countries.length,
-                users: users,
-                color: color,
-                error: "Country not found. Please check the spelling and try again."
-            }) */
-           res.redirect("/")
+            return res.redirect("/")
         }
 
         // if country is found
@@ -119,17 +109,7 @@ app.post("/add", async (req, res) => {
             
         } catch (err) {
             console.error("Error adding country:", err)
-            /* const countries = await checkVisited()
-            const users = await fetchUsers()
-            const color = await fetchUserColor()
-            res.render("index.ejs", {
-                countries: countries,
-                total: countries.length,
-                users: users,
-                color: color,
-                error: "Country has already been added, try again."
-            }) */
-           res.redirect("/")
+            return res.redirect("/")
         }
 
 
@@ -152,27 +132,9 @@ app.post("/user", async (req, res) => {
 
 
 // new user
-/* app.post("/new", async (req, res) => {
-    const username = req.body.username
-    const color = req.body.color
-
-    try {
-        await db.query(
-            "INSERT INTO users (username, color) VALUES ($1, $2)",
-            [username, color]
-        )
-        const id = result.rows[0].id
-        currentUserId = id
-        res.status(201).redirect("/")
-    } catch (err) {
-        console.error("Error adding user:", err)
-        res.status(500).redirect("/")
-    }
-}) */
-
-    app.post("/new", async (req, res) => {
-  const name = req.body.name;
-  const color = req.body.color;
+app.post("/new", async (req, res) => {
+  const name = req.body.name
+  const color = req.body.color
 
   const result = await db.query(
     "INSERT INTO users (username, color) VALUES($1, $2) RETURNING *;",
@@ -180,10 +142,10 @@ app.post("/user", async (req, res) => {
   );
 
   const id = result.rows[0].id;
-  currentUserId = id;
+  currentUserId = id
 
-  res.redirect("/");
-});
+  res.redirect("/")
+})
 
 // port
 app.listen(PORT, () => {
