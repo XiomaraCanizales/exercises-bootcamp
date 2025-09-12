@@ -13,11 +13,11 @@ Learning by following instructions from bootcamps
 - EJS
 - Git & GitHub
 - API's
-
-<!-- 
 - Databases
 - SQL
 - PostgreSQL
+
+<!-- 
 - Authentication & Security 
 - React.js
 - Web3 Decentralised App (DApp)
