@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root {
+    --baby-powder: #f7f9f7; 
+    --lime: #c3f73aff;
+    --light-green: #95e06cff;
+    --mint: #68b684ff;
+    --polynesian-blue: #094d92ff;
+    --licorice: #1c1018ff; 
+}
+
+body {
+    display: flex;
+
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+
+    background-color: var(--mint);
+    font-family: "Raleway", sans-serif;
+    color: var(--licorice);
+}
+
+main { margin-top: 5rem; }
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: var(--light-green);
+}
+
+.box {
+    background-color: var(--polynesian-blue);
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* items */
+.item {
+    padding: 1rem;
+    background-color: var(--baby-powder);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--licorice);
+}
+
+.container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+button.edit {
+    border: none;
+    background: none;
+}
+
+/* new item */
+input[type="text"] {
+    text-align: left;
+    border: none;
+    background: transparent;
+    outline: none;
+    max-height: 60px;
+    width: 80%;
+    font-weight: 200;
+}
+
+input[type="text"]:focus {
+    box-shadow: inset 0 -1px 0 0 var(--light-green);
+}
+
+button.add {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: var(--light-green);
+    color: var(--baby-powder);
+    border-width: 0;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 1rem;
+}

@@ -1,0 +1,45 @@
+<%- include('partials/header.ejs') %>
+<main>
+    <!-- title -->
+    <h1><%=listTitle %></h1>
+    
+    <!-- box of items -->
+    <div class="box">
+        <% for (let item of listItems) {%>
+            <div class="item">
+                <div class="container">
+                    <!-- checkbox to delete item -->
+                    <form action="/delete" method="post">
+                        <input type="checkbox" onchange="this.form.submit()" name="deleteItemId" value="<%= item.id %>">
+                    </form>
+
+                    <!-- display item -->
+                    <p id="title<%=item.id%>">
+                        <%= item.title %>
+                    </p>
+
+                    <form class="edit" action="/edit" method="post">
+                        <input type="hidden" name="updatedItemId" value="<%= item.id %>">
+                        <input id="input<%=item.id%>" type="text" name="updatedItemTitle" value="<%= item.title %>" autocomplete="off" 
+                            autofocus="true" hidden="true" />
+                        <button id="done<%=item.id%>" class="edit" type="submit" hidden>
+                            <img src="/assets/icons/001-check.png" alt="edit icon">
+                        </button>
+                    </form>
+                </div>
+                <!-- edit item -->
+                <button id="edit<%=item.id%>" class="edit" onclick="handler('<%=item.id%>')">
+                    <img src="/assets/icons/002-edit.png" alt="edit icon">
+                </button>
+            </div>
+        <% } %>
+        
+        <!-- new item -->
+        <form class="item" action="/add" method="post">
+            <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus="true" />
+            <button class="add" type="submit" name="list" value=<%=listTitle %> >+</button>
+        </form>
+    </div>
+</main>
+
+<%- include('partials/footer.ejs') %>
